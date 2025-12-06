@@ -1,14 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 @import "tailwindcss";
 
 @theme {
     /* --breakpoint-*: initial; */
-  --breakpoint-sm:480px;
-  --color-twitter-blue: #1DA1F2;  /* if you want to set your color */
+  --color-rabbit-red: #ea2e0e;  /* if you want to set your color */
   --color-orange-500: #ffa500;/* if you want to change/override a specific shade color which has already been taken by tailwind css */
 }
 
-:root {
-  font-family: "Poppins" "Montserrat", sans-serif;
+* {
+  font-family: "Poppins","Montserrat", sans-serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  /* margin: 0; */
+  /* padding: 0; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,18 +22,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-
 body {
-  margin: 0;
-}
-
-h1 {
-  font-size: 3.2em;
+  font-size: 14px;
   line-height: 1.1;
 }
+
+button {
+  outline: 0;
+  cursor: pointer;
+}
+
 
